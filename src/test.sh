@@ -1,7 +1,7 @@
 #!/bin/bash
 
 result=$(node -e "
-const { add } = require('./calculator');
+const { add } = require('./src/calculator');
 console.log(add(5, 7));
 ")
 
